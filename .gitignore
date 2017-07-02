@@ -1,4 +1,5 @@
 *.deb
 *amd64.zip*
 *.vagrant
+piratebox*
 

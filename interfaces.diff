@@ -1,0 +1,21 @@
+*** interfaces.170702.1134	2017-07-02 10:34:57.379820459 +0100
+--- interfaces	2017-07-02 10:38:20.109820555 +0100
+***************
+*** 14,21 ****
+  #dns-nameservers 8.8.8.8 8.8.4.4
+  
+  # Wifi
+! allow-hotplug wlan0
+! iface wlan0 inet dhcp
+  pre-up modprobe xradio_wlan
+  pre-up iwconfig wlan0 power on
+  address 192.168.0.100
+--- 14,21 ----
+  #dns-nameservers 8.8.8.8 8.8.4.4
+  
+  # Wifi
+! #allow-hotplug wlan0
+! iface wlan0 inet manual
+  pre-up modprobe xradio_wlan
+  pre-up iwconfig wlan0 power on
+  address 192.168.0.100
