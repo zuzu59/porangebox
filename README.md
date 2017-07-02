@@ -1,7 +1,7 @@
 # porangebox
 Pirate Box for Orange Pi Zero
 
-Il faut lire en premier:
+ATTENTION: Il faut lire en premier:
 
 [https://github.com/zuzu59/porangebox/blob/master/readme_state.md](https://github.com/zuzu59/porangebox/blob/master/readme_state.md)
 
