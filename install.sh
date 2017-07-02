@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # Petit script tout simple pour installer le soft PirateBox sur son OrangePi Zero avec DietPi comme OS
-# zf170702.1126
+# zf170702.1222
 # source: https://piratebox.cc/raspberry_pi:diy:manual
 
 echo -------- installation des packages de base
 #apt-get update
+apt-get install python iptables
 apt-get install lighttpd
 /etc/init.d/lighttpd stop
 update-rc.d lighttpd remove
