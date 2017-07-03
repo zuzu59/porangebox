@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Petit script tout simple pour installer le soft PirateBox sur son OrangePi Zero avec DietPi comme OS
-# zf170702.1222
+# zf170703.2133
 # source: https://piratebox.cc/raspberry_pi:diy:manual
 
 echo -------- installation des packages de base
@@ -34,4 +34,7 @@ sed 's:DROOPY_USE_USER="no":DROOPY_USE_USER="yes":' -i /opt/piratebox/conf/pirat
 ln -s /opt/piratebox/init.d/piratebox /etc/init.d/piratebox
 update-rc.d piratebox defaults 
 /etc/init.d/piratebox start
+
+echo -------- patch le démarrage de piratbox pour arrêter en premier les services lighttpd, dnsmasq et hostap qui ont été redémarrés par DietPi lors du boot
+./patch_piratebox_conf.sh
 

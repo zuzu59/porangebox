@@ -1,0 +1,22 @@
+*** conf.piratebox.org	2017-07-03 19:58:45.072513347 +0100
+--- /etc/init.d/piratebox	2017-07-03 20:25:43.028725032 +0100
+***************
+*** 85,90 ****
+--- 85,101 ----
+      log_daemon_msg "Starting script piratebox "
+      echo ""
+  
++ 
++ #arrête les services lighttpd, dnsmasq et hostap qui sont redémarrés automatiquement par DietPi lors du reboot !
++ #zf170703.2125
++ /etc/init.d/lighttpd stop
++ update-rc.d lighttpd remove
++ /etc/init.d/dnsmasq stop
++ update-rc.d dnsmasq remove
++ /etc/init.d/hostapd stop
++ update-rc.d hostapd remove
++ 
++ 
+      # Generate hosts & dnsmasq file
+      $PIRATEBOX/bin/generate_config_files.sh  "$CONF"
+      
