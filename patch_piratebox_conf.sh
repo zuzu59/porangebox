@@ -8,4 +8,4 @@
 echo -------- patch /etc/init.d/piratebox
 
 apt-get install patch
-patch -f /etc/init.d/piratebox < conf.piratebox.diff
+patch -f /opt/piratebox/init.d/piratebox < conf.piratebox.diff
