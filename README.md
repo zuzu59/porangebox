@@ -26,11 +26,12 @@ utiliser net-sharing pour partager la connexion Internet de son portable avec l'
 https://github.com/zuzu59/net-sharinghttps://github.com/zuzu59/net-sharing
 
 ``
-ls -al /dev > t1
-connecter le serial USB
-ls -al /dev > t2
-diff t1 t2
-voir quel device utiliser pour le screen
+voir quel device utiliser pour le screen<br>
+ls -al /dev > t1<br>
+connecter le serial USB<br>
+ls -al /dev > t2<br>
+diff t1 t2<br>
+
 ``
 
 screen /dev/tty.usbserial-FTB6SPL3 115200
