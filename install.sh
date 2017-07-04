@@ -36,7 +36,7 @@ update-rc.d piratebox defaults
 
 cd ~/porangebox
 echo -------- patch le démarrage de piratebox pour arrêter en premier les services lighttpd dnsmasq et hostap qui ont été redémarrés par DietPi lors du boot
-./patch_piratebox_conf.sh
+#./patch_piratebox_conf.sh
 
 echo "-------- patch le fichier de conf de hostap afin d'enclencher le WIFI 802.11n"
 ./patch_hostapd_conf.sh
