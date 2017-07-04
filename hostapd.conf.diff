@@ -1,7 +1,12 @@
-*** hostap.conf.org	2017-07-03 20:41:27.087592414 +0100
---- /opt/piratebox/conf/hostapd.conf	2017-07-03 20:09:12.311321034 +0100
+*** piratebox/piratebox/conf/hostapd.conf	2017-03-19 15:55:17.000000000 +0000
+--- /opt/piratebox/conf/hostapd.conf	2017-07-04 15:28:47.700000162 +0100
 ***************
-*** 6,12 ****
+*** 1,12 ****
+  interface=wlan0
+  driver=nl80211
+! ssid=PirateBox - Share Freely
+  
+! channel=1
   #auth_algs=1
   
   # Remove # to enable n wifi mode
@@ -9,7 +14,12 @@
   #wmm_enabled=1
   #ht_capab=[HT40+][SHORT-GI-40][DSSS_CCK-40]
   hw_mode=g
---- 6,12 ----
+--- 1,12 ----
+  interface=wlan0
+  driver=nl80211
+! ssid=PorangeBox
+  
+! channel=8
   #auth_algs=1
   
   # Remove # to enable n wifi mode
