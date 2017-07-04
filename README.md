@@ -26,11 +26,11 @@ utiliser net-sharing pour partager la connexion Internet de son portable avec l'
 https://github.com/zuzu59/net-sharinghttps://github.com/zuzu59/net-sharing
 
 ```
-voir quel device utiliser pour le screen<br>
-ls -al /dev > t1<br>
-connecter le serial USB<br>
-ls -al /dev > t2<br>
-diff t1 t2<br>
+voir quel device utiliser pour le screen
+ls -al /dev > t1
+connecter le serial USB
+ls -al /dev > t2
+diff t1 t2
 
 ```
 
