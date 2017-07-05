@@ -9,6 +9,9 @@ For now, details are on the wiki:
 
 [https://github.com/epfl-dojo/porangebox/wiki](https://github.com/epfl-dojo/porangebox/wiki)
 
+on pourrait encore installer (activer) l'uPNP (Media server) et le Forum sur notre PirateBox ;-)
+
+https://pirateboxfr.com/2014/08/03/post-installation-piratebox-1-0/
 
 
 
