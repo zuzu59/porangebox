@@ -1,3 +1,9 @@
+zf170704.1800
+Alors, il n'y a plus de problème, elle fonctionne super bien depuis le boot en mode autonome sur batterie ;-)
+
+
+
+
 zf170702.1254
 
 Alors il y a encore des petis problèmes !
